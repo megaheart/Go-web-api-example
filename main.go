@@ -48,5 +48,5 @@ func main() {
 	router.GET("/", getIndex)
 	router.GET("/albums", getAlbums)
 
-	router.Run("localhost:8080")
+	router.Run("localhost:80")
 }
